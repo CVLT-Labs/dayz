@@ -4,37 +4,37 @@
 
 <!-- Paste in events.xml -->
 <event name="ItemGroceryStore">
-    <nominal>126</nominal> <!-- Set same as Max Items -->
-    <min>72</min> <!-- lootMin x Number of Children (ex: 4 x 18 = 72) -->
-    <max>126</max> <!-- lootMax x Number of Children (ex: 7 x 18 = 126) -->
+    <nominal>180</nominal> <!-- Set same as Max Items -->
+    <min>90</min> <!-- min x Number of Children (ex: 4 x 18 = 72) -->
+    <max>180</max> <!-- max x Number of Children (ex: 7 x 18 = 126) -->
     <lifetime>7200</lifetime> <!-- Time (in seconds) for items to remain before respawn -->
     <restock>0</restock> <!-- Respawn items on server restart -->
     <saferadius>2</saferadius> <!-- Ensures some space between items, avoid stacking -->
-    <distanceradius>5</distanceradius> <!-- Spawn items within a 5-meter radius of the position -->
+    <distanceradius>6</distanceradius> <!-- Spawn items within a 6-meter radius of the position -->
     <cleanupradius>30</cleanupradius> <!-- Radius for cleaning up excess items -->
     <flags deletable="0" init_random="1" remove_damaged="1"/> <!-- Randomize item spawns, prevent damaged items -->
     <position>fixed</position>
     <limit>mixed</limit>
     <active>1</active> <!-- Event is active -->
     <children>
-        <child lootmax="7" lootmin="4" max="126" min="72" type="BakedBeansCan"/> 
-        <child lootmax="7" lootmin="4" max="126" min="72" type="CatFoodCan"/>
-        <child lootmax="7" lootmin="4" max="126" min="72" type="PeachesCan"/>
-        <child lootmax="7" lootmin="4" max="126" min="72" type="SardinesCan"/>
-        <child lootmax="7" lootmin="4" max="126" min="72" type="TunaCan"/>
-        <child lootmax="7" lootmin="4" max="126" min="72" type="PastaCan"/>
-        <child lootmax="7" lootmin="4" max="126" min="72" type="SpaghettiCan"/>
-        <child lootmax="7" lootmin="4" max="126" min="72" type="TacticalBaconCan"/>
-        <child lootmax="7" lootmin="4" max="126" min="72" type="DogFoodCan"/>
-        <child lootmax="7" lootmin="4" max="126" min="72" type="PowderedMilk"/>
-        <child lootmax="7" lootmin="4" max="126" min="72" type="Rice"/>
-        <child lootmax="7" lootmin="4" max="126" min="72" type="Canteen"/>
-        <child lootmax="7" lootmin="4" max="126" min="72" type="WaterBottle"/>
-        <child lootmax="7" lootmin="4" max="126" min="72" type="Pipsi"/>
-        <child lootmax="7" lootmin="4" max="126" min="72" type="Kvass"/>
-        <child lootmax="7" lootmin="4" max="126" min="72" type="SodaCan_Cola"/>
-        <child lootmax="7" lootmin="4" max="126" min="72" type="SodaCan_Spite"/>
-        <child lootmax="7" lootmin="4" max="126" min="72" type="SodaCan_Fronta"/>
+        <child lootmax="0" lootmin="0" max="10" min="5" type="BakedBeansCan"/> 
+        <child lootmax="0" lootmin="0" max="10" min="5" type="CatFoodCan"/>
+        <child lootmax="0" lootmin="0" max="10" min="5" type="PeachesCan"/>
+        <child lootmax="0" lootmin="0" max="10" min="5" type="SardinesCan"/>
+        <child lootmax="0" lootmin="0" max="10" min="5" type="TunaCan"/>
+        <child lootmax="0" lootmin="0" max="10" min="5" type="PastaCan"/>
+        <child lootmax="0" lootmin="0" max="10" min="5" type="SpaghettiCan"/>
+        <child lootmax="0" lootmin="0" max="10" min="5" type="TacticalBaconCan"/>
+        <child lootmax="0" lootmin="0" max="10" min="5" type="DogFoodCan"/>
+        <child lootmax="0" lootmin="0" max="10" min="5" type="PowderedMilk"/>
+        <child lootmax="0" lootmin="0" max="10" min="5" type="Rice"/>
+        <child lootmax="0" lootmin="0" max="10" min="5" type="Canteen"/>
+        <child lootmax="0" lootmin="0" max="10" min="5" type="WaterBottle"/>
+        <child lootmax="0" lootmin="0" max="10" min="5" type="Pipsi"/>
+        <child lootmax="0" lootmin="0" max="10" min="5" type="Kvass"/>
+        <child lootmax="0" lootmin="0" max="10" min="5" type="SodaCan_Cola"/>
+        <child lootmax="0" lootmin="0" max="10" min="5" type="SodaCan_Spite"/>
+        <child lootmax="0" lootmin="0" max="10" min="5" type="SodaCan_Fronta"/>
     </children>
 </event>
 
