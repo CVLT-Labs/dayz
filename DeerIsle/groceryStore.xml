@@ -10,7 +10,7 @@
     <lifetime>7200</lifetime> <!-- Time (in seconds) for items to remain before respawn -->
     <restock>0</restock> <!-- Respawn items on server restart -->
     <saferadius>2</saferadius> <!-- Ensures some space between items, avoid stacking -->
-    <distanceradius>6</distanceradius> <!-- Spawn items within a 5-meter radius of the position -->
+    <distanceradius>6</distanceradius> <!-- Spawn items within a 6-meter radius of the position (ie. inside the store) -->
     <cleanupradius>30</cleanupradius> <!-- Radius for cleaning up excess items -->
     <flags deletable="0" init_random="1" remove_damaged="1"/> <!-- Randomize item spawns, prevent damaged items -->
     <position>fixed</position>
