@@ -4,7 +4,7 @@
 
 <!-- Paste in events.xml -->
 <event name="ItemGroceryStore">
-    <nominal>150</nominal> <!-- Max Items + 25 Item Buffer -->
+    <nominal>151</nominal> <!-- Max Items + 25 Item Buffer -->
     <min>72</min> <!-- lootMin x Number of Children (ex: 4 x 18 = 72) -->
     <max>126</max> <!-- lootMax x Number of Children (ex: 7 x 18 = 126) -->
     <lifetime>7200</lifetime> <!-- Time (in seconds) for items to remain before respawn -->
