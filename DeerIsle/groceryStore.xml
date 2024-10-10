@@ -5,8 +5,8 @@
 <!-- Paste in events.xml -->
 <event name="ItemGroceryStore">
     <nominal>180</nominal> <!-- Set same as Max Items -->
-    <min>90</min> <!-- min x Number of Children (ex: 4 x 18 = 72) -->
-    <max>180</max> <!-- max x Number of Children (ex: 7 x 18 = 126) -->
+    <min>90</min> <!-- min x Number of Children (ex: 5 x 18 = 90) -->
+    <max>180</max> <!-- max x Number of Children (ex: 10 x 18 = 180) -->
     <lifetime>7200</lifetime> <!-- Time (in seconds) for items to remain before respawn -->
     <restock>0</restock> <!-- Respawn items on server restart -->
     <saferadius>2</saferadius> <!-- Ensures some space between items, avoid stacking -->
