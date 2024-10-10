@@ -1,0 +1,133 @@
+<!-- Below are most (may have missed one or two) of the coordinates for Grocery Stores on Deer Isle. -->
+<!-- I've included a custom event that should spawn some food items at most locations. -->
+<!-- With 🤍 from rabbl. -->
+
+<!-- Paste in events.xml -->
+<event name="ItemGroceryStore">
+    <nominal>150</nominal> <!-- Max Items + 25 Item Buffer -->
+    <min>72</min> <!-- lootMin x Number of Children (ex: 4 x 18 = 72) -->
+    <max>126</max> <!-- lootMax x Number of Children (ex: 7 x 18 = 126) -->
+    <lifetime>7200</lifetime> <!-- Time (in seconds) for items to remain before respawn -->
+    <restock>0</restock> <!-- Respawn items on server restart -->
+    <saferadius>2</saferadius> <!-- Ensures some space between items, avoid stacking -->
+    <distanceradius>6</distanceradius> <!-- Spawn items within a 5-meter radius of the position -->
+    <cleanupradius>30</cleanupradius> <!-- Radius for cleaning up excess items -->
+    <flags deletable="0" init_random="1" remove_damaged="1"/> <!-- Randomize item spawns, prevent damaged items -->
+    <position>fixed</position>
+    <limit>mixed</limit>
+    <active>1</active> <!-- Event is active -->
+    <children>
+        <child lootmax="7" lootmin="4" max="150" min="75" type="BakedBeansCan"/> 
+        <child lootmax="7" lootmin="4" max="150" min="75" type="CatFoodCan"/>
+        <child lootmax="7" lootmin="4" max="150" min="75" type="PeachesCan"/>
+        <child lootmax="7" lootmin="4" max="150" min="75" type="SardinesCan"/>
+        <child lootmax="7" lootmin="4" max="150" min="75" type="TunaCan"/>
+        <child lootmax="7" lootmin="4" max="150" min="75" type="PastaCan"/>
+        <child lootmax="7" lootmin="4" max="150" min="75" type="SpaghettiCan"/>
+        <child lootmax="7" lootmin="4" max="150" min="75" type="TacticalBaconCan"/>
+        <child lootmax="7" lootmin="4" max="150" min="75" type="DogFoodCan"/>
+        <child lootmax="7" lootmin="4" max="150" min="75" type="PowderedMilk"/>
+        <child lootmax="7" lootmin="4" max="150" min="75" type="Rice"/>
+        <child lootmax="7" lootmin="4" max="150" min="75" type="Canteen"/>
+        <child lootmax="7" lootmin="4" max="150" min="75" type="WaterBottle"/>
+        <child lootmax="7" lootmin="4" max="150" min="75" type="Pipsi"/>
+        <child lootmax="7" lootmin="4" max="150" min="75" type="Kvass"/>
+        <child lootmax="7" lootmin="4" max="150" min="75" type="SodaCan_Cola"/>
+        <child lootmax="7" lootmin="4" max="150" min="75" type="SodaCan_Spite"/>
+        <child lootmax="7" lootmin="4" max="150" min="75" type="SodaCan_Fronta"/>
+    </children>
+</event>
+
+<!-- Paste in cfgeventspawns.xml -->
+  <event name="ItemGroceryStore">
+        <pos x="10025.8" y="23.02" z="10862.5" />
+        <pos x="8799.32" y="7.97582" z="9386.72" />
+        <pos x="8497.83" y="11.98" z="9191.7" />
+        <pos x="8405.05" y="8.60613" z="8876.48" />
+        <pos x="8274.57" y="5.91051" z="8856.49" />
+        <pos x="5985.89" y="7.21219" z="14085.8" />
+        <pos x="5993.4" y="7.18485" z="14109.8" />
+        <pos x="6058.6" y="12.1971" z="14040.1" />
+        <pos x="6199.4" y="26.7864" z="14043.8" />
+        <pos x="5826.96" y="6.6201" z="14236" />
+        <pos x="5434.31" y="3.51494" z="7650.42" />
+        <pos x="5413.73" y="3.5098" z="7662.39" />
+        <pos x="6659.11" y="16.3404" z="6426.13" />
+        <pos x="7116.48" y="7.4589" z="5401.68" />
+        <pos x="9763.51" y="6.16098" z="4216.89" />
+        <pos x="9763.62" y="6.84949" z="4309.46" />
+        <pos x="10251.5" y="43.0863" z="4916.03" />
+        <pos x="9665.72" y="40.3649" z="5490.61" />
+        <pos x="7210.81" y="33.8931" z="2193.95" />
+        <pos x="6801.9" y="40.07" z="1945.38" />
+        <pos x="6295.49" y="32.4634" z="1937.32" />
+        <pos x="6814.76" y="4.01051" z="1486.88" />
+        <pos x="7119.86" y="3.14232" z="1331.22" />
+        <pos x="7351.95" y="4.00998" z="1425.85" />
+        <pos x="7181.15" y="8.91998" z="1568.08" />
+        <pos x="6612.03" y="18.1123" z="1483.84" />
+        <pos x="4937.02" y="4.67048" z="2097.22" />
+        <pos x="4589.97" y="3.90007" z="2723.03" />
+        <pos x="4440.39" y="4.73229" z="2786.29" />
+        <pos x="5530.06" y="75.25" z="3858.73" />
+        <pos x="5651.17" y="74.7805" z="3827.12" />
+        <pos x="3462.67" y="31.4988" z="4833.8" />
+        <pos x="1936.27" y="10.44" z="8959.39" />
+        <pos x="2035.83" y="10.2924" z="9004.54" />
+        <pos x="361.522" y="7.78047" z="11826.5" />
+        <pos x="519.195" y="37.9525" z="12135.7" />
+        <pos x="762.933" y="38.96" z="12471.7" />
+        <pos x="420.185" y="8.24998" z="12656.1" />
+        <pos x="792.235" y="10.0489" z="12749.5" />
+        <pos x="644.909" y="10.827" z="15014.4" />
+        <pos x="728.16" y="8.90048" z="15102" />
+        <pos x="1205.23" y="4.45998" z="14892.5" />
+        <pos x="1373.08" y="9.56998" z="15593" />
+        <pos x="11454.3" y="16.03" z="10260.8" />
+  </event>
+
+<!-- Coordinates for Grocery Store locations in Deer Isle -->
+<10025.8, 23.02, 10862.5>
+<8799.32, 7.97582, 9386.72>
+<8497.83, 11.98, 9191.7>
+<8405.05, 8.60613, 8876.48>
+<8274.57, 5.91051, 8856.49>
+<5985.89, 7.21219, 14085.8>
+<5993.4, 7.18485, 14109.8>
+<6058.6, 12.1971, 14040.1>
+<6199.4, 26.7864, 14043.8>
+<5826.96, 6.6201, 14236>
+<5434.31, 3.51494, 7650.42>
+<5413.73, 3.5098, 7662.39>
+<6659.11, 16.3404, 6426.13>
+<7116.48, 7.4589, 5401.68>
+<9763.51, 6.16098, 4216.89>
+<9763.62, 6.84949, 4309.46>
+<10251.5, 43.0863, 4916.03>
+<9665.72, 40.3649, 5490.61>
+<7210.81, 33.8931, 2193.95>
+<6801.9, 40.07, 1945.38>
+<6295.49, 32.4634, 1937.32>
+<6814.76, 4.01051, 1486.88>
+<7119.86, 3.14232, 1331.22>
+<7351.95, 4.00998, 1425.85>
+<7181.15, 8.91998, 1568.08>
+<6612.03, 18.1123, 1483.84>
+<4937.02, 4.67048, 2097.22>
+<4589.97, 3.90007, 2723.03>
+<4440.39, 4.73229, 2786.29>
+<5530.06, 75.25, 3858.73>
+<5651.17, 74.7805, 3827.12>
+<3462.67, 31.4988, 4833.8>
+<1936.27, 10.44, 8959.39>
+<2035.83, 10.2924, 9004.54>
+<361.522, 7.78047, 11826.5>
+<519.195, 37.9525, 12135.7>
+<762.933, 38.96, 12471.7>
+<420.185, 8.24998, 12656.1>
+<792.235, 10.0489, 12749.5>
+<644.909, 10.827, 15014.4>
+<728.16, 8.90048, 15102>
+<1205.23, 4.45998, 14892.5>
+<1373.08, 9.56998, 15593>
+<11454.3, 16.03, 10260.8>
